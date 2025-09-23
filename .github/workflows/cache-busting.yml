@@ -1,0 +1,32 @@
+name: Build and Deploy with Cache Busting
+
+on:
+  push:
+    branches:
+      - main   # 你的 Pages 預設分支，如果用 master 就改成 master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 把倉庫 checkout 下來
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. 安裝 Python（因為要跑 add_version.py）
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # 3. 執行我們的 Python 腳本
+      - name: Add version query string
+        run: python3 add_version.py
+
+      # 4. 部署到 GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./   # 如果你有 build 輸出目錄（例如 Jekyll/_site），要改這裡
