@@ -1,4 +1,10 @@
-使用Jekyll創建GitHub Pages站點
+---
+layout: post
+title:  "使用Jekyll創建GitHub Pages站點"
+date:   2025-09-12 15:50:56 +0800
+categories: [GitHub Pages]
+---
+
 
 先决条件
 必须安装 Jekyll 和 Git 后才可使用 Jekyll 创建 GitHub Pages 站点。 有关详细信息，请参阅 Jekyll 文档中的安装和“设置 Git”。

@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "VMware Workstation虛擬機與Ubuntu系統安裝"
+date:   2025-09-12 15:50:56 +0800
+categories: [VMware Workstation, Ubuntu]
+---
+
 # 虛擬機與 Ubuntu 系統安裝教材
 
 如何在電腦上安裝虛擬機 (VMware Workstation Player / VirtualBox)，並建立 Ubuntu Linux 系統。  

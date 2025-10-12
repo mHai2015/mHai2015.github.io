@@ -1,4 +1,11 @@
-在Windows或者Ubuntu上安裝git
+---
+layout: post
+title:  "在Windows或者Ubuntu上安裝git"
+date:   2025-09-12 15:50:56 +0800
+categories: [git]
+---
+
+
 
 # Git 安裝教程 (Windows & Linux)
 

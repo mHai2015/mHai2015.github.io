@@ -1,4 +1,9 @@
-如何在Windows10上安裝Linux子系統WSL
+---
+layout: post
+title:  "如何在Windows10上安裝Linux子系統WSL"
+date:   2025-09-12 15:50:56 +0800
+categories: [WSL]
+---
 
 以管理員模式啓動PowerShell, 輸入wsl --install命令，等待結束後重新啓動電腦。
 wsl --install
