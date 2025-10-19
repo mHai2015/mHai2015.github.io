@@ -1,29 +1,18 @@
 ---
 layout: post
-title:  "Welcome to myweb!"
+title:  "歡迎來到我的網站"
 date:   2025-09-12 15:50:56 +0800
+pin: true
 categories: [Welcome]
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+歡迎來到我的網站！
+這裡記錄了我在遊戲開發、模擬系統設計與軟體工程領域的學習與實踐歷程。我熱衷於探索新技術，從 Unreal Engine, AI 到,數據分析與網站開發，都是我不斷挑戰自我、追求成長的足跡。
 
-Jekyll requires blog post files to be named according to the following format:
+在這個網站中，我分享：
 
-`YEAR-MONTH-DAY-title.MARKUP`
+- 🧩 我在 Unreal Engine (UE4/UE5) 中的開發筆記與技術文章
+- 🧠 關於 AI、模擬系統 的設計思路與案例
+- 🌱 學習資源與個人研究筆記（例如資料分析、教育應用、Python 網頁開發等）
+- 💡 我的個人項目與開源計劃
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+希望這個網站不僅是我記錄成長的地方，也能成為與志同道合者交流學習的橋樑。
